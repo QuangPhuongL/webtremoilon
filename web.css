@@ -1,0 +1,244 @@
+#upper {
+    position: fixed;
+  }
+  body {
+    background-color: white;
+  } 
+    
+  #left-item {
+    width: 100%;
+    background: black;
+    height: 65px;
+    max-height: 500px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+  svg {
+    border-radius: 50%;
+    position: fixed;
+    width: 50px;
+    top: 5;
+    margin: 0;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    border: 5px solid white;
+    background-color: white;
+    float: left;
+  }
+  #first {
+    position: fixed;
+    margin-top: 0px;
+    top: 5px;
+    left: 65px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 0px;
+    border: 1;
+    position: absolute;
+    font-family: Arial;
+  }
+  #first:hover {
+    cursor: pointer;
+  }
+  #link {
+    color: #DADFD9;
+    position: absolute;
+    left: 65px;
+    top: 30px;
+    padding-top: 0;
+    margin-top: 0px;
+    position: fixed;
+  }
+  #link:hover {
+    color: white;
+    cursor: pointer;
+  }
+  #young {
+    font-size: 15px;
+    margin: 3px 2px;
+    background-color: #99E085;
+    display: inline;
+    cursor: pointer;
+    position: fixed;
+  }
+  #young:hover {
+    background-color: #266215;
+    color: white;
+  }
+  
+  path {
+    color: white;
+    position: fixed;
+  }
+  #right-item {
+    top: 10px;
+    position: absolute;
+    right: 0px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 420px;
+    position: fixed;
+    height: 45px;
+  }
+  #login {
+    order: 3;
+    border-radius: 10%;
+    width: 85px;
+    background-color: #70766F;
+    font-size: 17px;
+    color: white;
+  }
+  #login:hover {
+    background-color: #ADB4AA;
+    cursor: pointer;
+  }
+  #viewEditor {
+    background-color: #70766F;
+    width: 150px;
+    border-radius: 7%;
+    font-size: 17px;
+    color: white;
+    order: 1;
+  }
+  #viewEditor:hover {
+    background-color: #ADB4AA;
+    cursor: pointer;
+  }
+  #SignUp {
+    order: 2;
+    background-color: #87CA75;
+    width: 100px;
+    border-radius: 10%;
+    font-size: 17px;
+  }
+  #SignUp:hover {
+    cursor: pointer;
+    background-color: #5F9C4E;
+  }
+  #love {
+    height: 45px;
+    width: 45px;
+    background-color: #70766F;
+    border-radius: 10%;
+  }
+  #love:hover {
+    background-color: #ADB4AA;
+    cursor: pointer;
+  }
+  #cute {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    transform: rotate(-45deg);
+    top: 15px;
+    right: 382px;
+    position: absolute;
+  }
+  #cute::after{
+    content:"";
+    background-color:white;
+    width: 15px;
+    height: 15px;
+    position: absolute;  
+    border-radius: 50%;
+    
+  }
+  #cute::before{
+    content:"";
+    background-color:white;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 6.5px;
+    z-index: 2;
+    right: 0.4px;
+    border-radius: 50%
+  }
+  
+  #tittle {
+    top: 170px;
+    font-size: 20px;
+    color: #2E2F2E;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: arial;
+    position: relative;
+  }
+  #slogan {
+    color: white;
+  }
+  #p {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 18px;
+    color: #777976;
+    font-weight: normal;
+  }
+  
+  #white {
+    background-color: white;
+    position: absolute;
+    width: 1450px;
+    height: 700px;
+    left: 30px;
+  }
+  #image {
+    position: absolute;
+    left: 250px;
+  }
+  #normal {
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    color: #2E2F2E;
+  }
+  #timeline {
+    top: 900px;
+    color: #2E2F2E;
+    position: absolute;
+    left: 600px;
+    font-size: 20px;
+    font-family: arial;
+  }
+  #text {
+    position: absolute;
+    line-height: 30px;
+    width: 700px;
+    height: 1000px;
+    top: 970px;
+    left: 450px;
+    font-size: 15px;
+    font-family: arial;
+    color: #777976;
+  }
+  strong {
+    color: #2E2F2E;
+  }
+  #final {
+    width: 600px;
+    height: 200px;
+    top: 2150px;
+    position: absolute;
+    left: 480px;
+    font-size: 18px;
+    word-spacing: 5px;
+    line-height: 25px;
+    color: #777976;
+    font-style: italic;
+  }
+  #more {
+    color: #2E2F2E;
+    font-family: arial;
+    font-weight: bold;
+    font-style: normal;
+    width: 700px;
+    left: 300px;
+  }
